@@ -1,0 +1,72 @@
+[debug] [2022-06-11T05:20:11.553Z] ----------------------------------------------------------------------
+[debug] [2022-06-11T05:20:11.554Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2022-06-11T05:20:11.554Z] CLI Version:   11.0.1
+[debug] [2022-06-11T05:20:11.554Z] Platform:      darwin
+[debug] [2022-06-11T05:20:11.555Z] Node Version:  v16.13.0
+[debug] [2022-06-11T05:20:11.555Z] Time:          Sat Jun 11 2022 10:50:11 GMT+0530 (India Standard Time)
+[debug] [2022-06-11T05:20:11.555Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-11T05:20:11.618Z] Field ".emulators.firestore.port" in "firebase.json" is possibly invalid: should be number
+[debug] [2022-06-11T05:20:11.621Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-11T05:20:11.621Z] > authorizing via signed-in user (ankush@liberintechnologies.com)
+[debug] [2022-06-11T05:20:11.621Z] Field ".emulators.firestore.port" in "firebase.json" is possibly invalid: should be number
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/ankushsood/work/ecommerce/lunetas-cam
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-06-11T05:20:22.485Z] Using project from CLI flag: salinaka-ecommerce
+[debug] [2022-06-11T05:20:22.487Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/salinaka-ecommerce [none]
+[debug] [2022-06-11T05:20:23.052Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/salinaka-ecommerce 403
+[debug] [2022-06-11T05:20:23.052Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/salinaka-ecommerce {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-06-11T05:20:23.053Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-06-11T05:20:23.241Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:47:12)
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project salinaka-ecommerce. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-06-11T05:20:37.889Z] ----------------------------------------------------------------------
+[debug] [2022-06-11T05:20:37.891Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2022-06-11T05:20:37.891Z] CLI Version:   11.0.1
+[debug] [2022-06-11T05:20:37.891Z] Platform:      darwin
+[debug] [2022-06-11T05:20:37.891Z] Node Version:  v16.13.0
+[debug] [2022-06-11T05:20:37.895Z] Time:          Sat Jun 11 2022 10:50:37 GMT+0530 (India Standard Time)
+[debug] [2022-06-11T05:20:37.895Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-11T05:20:37.959Z] Field ".emulators.firestore.port" in "firebase.json" is possibly invalid: should be number
+[debug] [2022-06-11T05:20:37.962Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-11T05:20:37.962Z] > authorizing via signed-in user (ankush@liberintechnologies.com)
+[debug] [2022-06-11T05:20:37.963Z] Field ".emulators.firestore.port" in "firebase.json" is possibly invalid: should be number
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/ankushsood/work/ecommerce/lunetas-cam
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
