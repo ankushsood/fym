@@ -33,9 +33,9 @@ const Home = () => {
         <div className="banner">
           <div className="banner-desc">
             <h1 className="text-thin">
-              <strong>See</strong>
-              &nbsp;everything with&nbsp;
-              <strong>Clarity</strong>
+              <strong>Find</strong>
+              &nbsp;products that&nbsp;
+              <strong>Inspire</strong>
             </h1>
             <p>
               Buying anything should leave you happy and good-looking, with money in your pocket.
