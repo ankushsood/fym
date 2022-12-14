@@ -5,7 +5,7 @@ import bannerImg from 'images/banner-girl-1.png';
 import React from 'react';
 
 const RecommendedProducts = () => {
-  useDocumentTitle('Recommended Products | Lunetas-cam');
+  useDocumentTitle('Recommended Products | Xiopi');
   useScrollTop();
 
   const {

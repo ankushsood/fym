@@ -17,8 +17,8 @@ const Footer = () => {
         <strong>
           <span>
             Contacts <br />
-            tel : +237 651 97 76 85 <br />
-            email : lunetas@yahoo.fr
+            tel : +31 00 00 00 00 <br />
+            email : shop@xiopi.cc
           </span>
         </strong>
       </div>

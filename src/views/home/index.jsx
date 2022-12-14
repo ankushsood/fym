@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 
 
 const Home = () => {
-  useDocumentTitle('Lunetas-cam | Home');
+  useDocumentTitle('Xiopi | Home');
   useScrollTop();
 
   const {
@@ -38,8 +38,7 @@ const Home = () => {
               <strong>Clarity</strong>
             </h1>
             <p>
-              Buying eyewear should leave you happy and good-looking, with money in your pocket.
-              Glasses, sunglasses, and contacts—we’ve got your eyes covered.
+              Buying anything should leave you happy and good-looking, with money in your pocket.
             </p>
             <br />
             <Link to={SHOP} className="button">
